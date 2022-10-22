@@ -232,13 +232,15 @@ main {
 
 .about-us_more_button_icon {
     width: 8px;
-    height: 16px;
+    height: 11px;
     background: url("img/more.svg") no-repeat;
     margin-right: 16px;
+
 }
 
 .about-us_more_button_title {
     font-size: 16px;
+
 }
 
 @media (min-width: 0) and (max-width: 767px) {
