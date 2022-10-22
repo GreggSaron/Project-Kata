@@ -241,7 +241,7 @@ main {
     font-size: 16px;
 }
 
-@media (min-width: 0) and (max-width: 768px) {
+@media (min-width: 0) and (max-width: 767px) {
 
 
     body {
@@ -288,7 +288,7 @@ main {
 }
 
 
-@media (min-width: 768px) and (max-width: 1120px) {
+@media (min-width: 768px) and (max-width: 1119px) {
 
 
     .main-menu_buttons {
