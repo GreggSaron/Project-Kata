@@ -200,6 +200,11 @@ main {
     margin-right: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: #7E7E82;
+}
+
 .nav_item:hover {
 
     border: 2px solid #B8FFEC;
