@@ -245,7 +245,7 @@ a {
 
 .about-us_more_button_title {
     font-size: 16px;
-
+    font-family: 'TTlakes', serif;
 }
 
 @media (min-width: 0) and (max-width: 767px) {
