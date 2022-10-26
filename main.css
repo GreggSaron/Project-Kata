@@ -248,7 +248,7 @@ a {
     font-family: 'TTlakes', serif;
 }
 
-@media (min-width: 0) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
 
     body {
@@ -278,6 +278,11 @@ a {
         overflow-x: scroll;
     }
 
+    .devider {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
 
 
     .left-menu-block {
@@ -287,10 +292,16 @@ a {
     .about-us {
         width: 100%;
         margin-bottom: 24px;
+        margin-left: 16px;
+    }
+
+    .content {
+        margin-left: 0;
     }
 
     .photo {
         width: 100%;
+
     }
 
 }
