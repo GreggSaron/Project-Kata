@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.eot") format("eot");
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.ttf") format("truetype");
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.eot") format("eot");
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.ttf") format("truetype");
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.eot") format("eot");
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.ttf") format("truetype");
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+body {
+    width: 320px;
+    margin-right: auto;
+    font-family: 'TTlakes', serif;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-menu-block {
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+}
+
+.left-menu-block_close-button {
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: url("img/close.svg");
+
+}
+
+
+.right-menu-block {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-menu-block_search-button {
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: url("img/search.svg");
+}
