@@ -1,20 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-  <link rel="stylesheet" href="main-1.4.css">
-</head>
-<body>
-  <header class="header-menu">
-    <div class="left-menu-block">
-      <button class="left-menu-block_close-button"></button>
-      <img src="img/Logo.svg" alt="Логотип">
-    </div>
-    <div class="right-menu-block">
-      <button class="right-menu-block_search-button"></button>
-    </div>
-  </header>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="main-1.4.css">
+  <title>Макет 1.4</title>
+</head>
+
+<body class="menu-body">
+<main class="menu-main">
+  <div class="head">
+    <button type="button" class="head__button close">
+
+    </button>
+
+    <div class="nav__logo logo">
+      <a href="#" class="logo__link">
+        <img src="img/Logo.svg" alt="Логотип" class="logo__img">
+      </a>
+    </div>
+
+    <button type="button" class="head__button search">
+
+    </button>
+  </div>
+
+  <ul class="sections">
+    <a href="#" class="sections__link ">
+      <li class="sections__item sections__item--active">
+        Ремонт техники
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Услуги и сервисы
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Корпоративным клиентам
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Продавцам техники
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Партнерам
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Производителям
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Наши сервисные центры
+      </li></a>
+
+    <a href="#" class="sections__link">
+      <li class="sections__item">
+        Контакты
+      </li></a>
+
+  </ul>
+</main>
+
+
+<footer class="menu-footer footer">
+  <div class="footer__buttons">
+    <button type="button" class="footer__button call">
+
+    </button>
+    <button type="button" class="footer__button chat">
+
+    </button>
+    <button type="button" class="footer__button profile">
+
+    </button>
+  </div>
+
+  <p class="footer__email">mail@cps.com</p>
+  <p class="footer__phone-number">8 800 890 8900</p>
+
+  <div class="footer__lang lang">
+    <button type="button" class="lang__button lang--ru lang--active">RU</button>
+    <button type="button" class="lang__button lang--en">EN</button>
+    <button type="button" class="lang__button lang--ch">CH</button>
+  </div>
+</footer>
 </body>
 </html>
