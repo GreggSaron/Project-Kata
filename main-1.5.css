@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.eot") format("eot");
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.ttf") format("truetype");
+    src: url("fonts/TTLakes-Bold/TTLakes-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.eot") format("eot");
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.ttf") format("truetype");
+    src: url("fonts/TTLakes-Regular/TTLakes-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: "TTlakes";
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.eot") format("eot");
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.ttf") format("truetype");
+    src: url("fonts/TTLakes-Medium/TTLakes-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'TTlakes', serif;
+    margin: 0;
+
+}
+
+header {
+    font-size: 16px;
+    color: #7E7E82;
+}
+
+.header__head {
+    margin: 16px 0 16px 24px;
+}
+
+main {
+    background: #F2F2F2;
+    padding-bottom: 16px;
+
+}
+
+.swiper-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.swiper-slide {
+    margin: 16px 0 0 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    background: #FFFFFF;
+    min-width: 240px;
+    max-width: 240px;
+    min-height: 72px;
+}
+
+.brands__logo {
+    margin-left: 16px;
+}
+
+.brands__link {
+    background: url("img/go.svg");
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header__head {
+        margin-left: 16px;
+    }
+
+    .swiper-slide {
+        margin-left: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1119px) {
+    .swiper-slide {
+        margin-left: 24px;
+    }
+
+}
+
+@media (min-width: 1120px) {
+    .header__head {
+        margin-left: 32px;
+    }
+
+}
