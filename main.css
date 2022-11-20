@@ -248,6 +248,14 @@ a {
     font-family: 'TTlakes', serif;
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
 
 
@@ -341,6 +349,10 @@ a {
 
     main {
         border: none;
+    }
+
+    .swiper-slide:nth-child(9)  {
+        display: none;
     }
 
 
